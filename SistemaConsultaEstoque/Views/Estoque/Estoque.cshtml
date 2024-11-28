@@ -1,0 +1,22 @@
+﻿@model System.Data.DataTable
+
+<h2>Estoque</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Produto</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow row in Model.Rows)
+        {
+                <tr>
+                    <td>@row["id_produto"]</td> <!-- Corrigido -->
+                    <td>@row["nome"]</td> <!-- Corrigido -->
+                    <td>@row["quantidade"]</td> <!-- Corrigido -->
+                </tr>
+        }
+    </tbody>
+</table>
