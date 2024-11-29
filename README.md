@@ -24,7 +24,7 @@ O **SistemaConsultaEstoque** é uma aplicação web desenvolvida em ASP.NET Core
 - [Visual Studio](https://visualstudio.microsoft.com/)
 
 ### Clonando o Repositório
-```bash
+
 git clone https://github.com/CarolPaneco/SistemaWeb.git
 
 ### Executando o Projeto
